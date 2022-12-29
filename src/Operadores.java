@@ -1,14 +1,29 @@
 public class Operadores {
+
     public static void main(String[] args) {
-        boolean condicao1=true;
 
-        boolean condicao2=false;
-        if(condicao1 || condicao2)
+        int mês = 6;
 
-            System.out.print( "uma das condições são verdadeiras");
+           if(mês == 1)
+           {System.out.print("JANEIRO");}
+
+           else if (mês == 2) {
+               System.out.print("FEVEREIRO");}
+
+           else if (mês == 3) {
+               System.out.print("MARÇO");}
+            else if (mês!= 1) {
+               System.out.print("INVÁLIDO");
+        }
+
+
+        }
+
+
+
 
 
 
 
     }
-}
+
