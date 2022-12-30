@@ -1,29 +1,36 @@
+import java.util.Scanner;
+
 public class Operadores {
 
     public static void main(String[] args) {
 
-        int mês = 6;
+        int x;
+        Scanner dado;
 
-           if(mês == 1)
-           {System.out.print("JANEIRO");}
+        System.out.print("DIGITE UM NUMERO");
 
-           else if (mês == 2) {
-               System.out.print("FEVEREIRO");}
+        dado = new Scanner(System.in);
+        x = dado.nextInt();
 
-           else if (mês == 3) {
-               System.out.print("MARÇO");}
-            else if (mês!= 1) {
-               System.out.print("INVÁLIDO");
+
+
+        switch (x)
+        {
+            case 1:
+                System.out.print("NUMERO 1");
+                break;
+
+
+            case 2:
+                System.out.print("NUMERO 2");
+                break;
+
+
+            default:
+                System.out.print("OUTRO NUMERO");
         }
-
-
-        }
-
-
-
-
-
 
 
     }
+}
 
